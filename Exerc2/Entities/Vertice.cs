@@ -30,7 +30,8 @@ namespace Exerc2
             double x = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Ponto Y: ");
             double y = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            Vertice vertice = new(x, y);
+            X =  x;
+            Y =  y;
 
         }
 

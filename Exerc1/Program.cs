@@ -8,7 +8,7 @@
 try
 {
     Piramide p = new Piramide(n);
-    p.desenha(n);
+    p.desenha();
 }
 
 catch (SystemException)
