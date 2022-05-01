@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Exerc4/1.0.0": {
+        "dependencies": {
+          "Exerc2": "1.0.0",
+          "Exerc3": "1.0.0"
+        },
+        "runtime": {
+          "Exerc4.dll": {}
+        }
+      },
+      "Exerc2/1.0.0": {
+        "runtime": {
+          "Exerc2.dll": {}
+        }
+      },
+      "Exerc3/1.0.0": {
+        "dependencies": {
+          "Exerc2": "1.0.0"
+        },
+        "runtime": {
+          "Exerc3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exerc4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Exerc2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Exerc3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

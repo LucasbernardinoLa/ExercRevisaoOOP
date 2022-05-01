@@ -19,18 +19,19 @@ namespace Exerc2.Entities
         }
 
 
-        public double Distancia()
+        public void Distancia()
         {
             double resultado = X - Y;
 
-            double DEuclidian = Math.Sqrt(Math.Pow(resultado, 2));
+            double deuclidian = Math.Sqrt(Math.Pow(resultado, 2));
 
-            return DEuclidian;
+            Console.WriteLine($"valor da distância euclidiana: { deuclidian}");
         }
 
         public void Move()
         {
             Console.WriteLine("Escolha a posição desejada para mover os pontos ");
+            Console.WriteLine(" ");
             Console.Write("Ponto X: ");
             double x = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Ponto Y: ");

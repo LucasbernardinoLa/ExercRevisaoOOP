@@ -58,15 +58,9 @@ namespace Exerc3.Entities
             return base.GetHashCode();
         }
 
-        public void MostraPerimetro()
-        {
-
-           Console.WriteLine($"Valor do perímetro: {Perimetro} ");
-        }
-
         public override string ToString()
         {
-            return $"Perímetro: {Perimetro}, Tipo: {Tipo}, Area: {Area.ToString("F2")}";
+            return $"Perímetro: {Perimetro}, Tipo: {Tipo}, Area: {Area.ToString("F2", CultureInfo.InvariantCulture)}";
         }
 
     }
