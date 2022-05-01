@@ -1,5 +1,4 @@
-﻿
-namespace Exerc1
+﻿namespace Exerc1.Entities
 {
     internal class Piramide
     {
@@ -15,17 +14,17 @@ namespace Exerc1
             {
                 N = n;
             }
-            
-                     
+
+
         }
 
         public void desenha()
         {
-           
+
             ;
 
             for (int i = 1; i <= N; i++)
-            { 
+            {
 
                 for (int j = 1; j <= N - i; j++)
                 {
@@ -39,8 +38,8 @@ namespace Exerc1
                 {
                     Console.Write(j);
                 }
-                Console.WriteLine();                      
-                                             
+                Console.WriteLine();
+
             }
 
         }

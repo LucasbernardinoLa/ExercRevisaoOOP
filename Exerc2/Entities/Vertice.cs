@@ -1,8 +1,8 @@
 ﻿using System.Globalization;
 
-namespace Exerc2
+namespace Exerc2.Entities
 {
-    internal class Vertice
+    public class Vertice
     {
         public double X { get; private set; }
         public double Y { get; private set; }
@@ -11,6 +11,11 @@ namespace Exerc2
         {
             X = x;
             Y = y;
+        }
+
+        public Vertice(double x)
+        {
+            X = x;
         }
 
 
@@ -30,8 +35,8 @@ namespace Exerc2
             double x = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Ponto Y: ");
             double y = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            X =  x;
-            Y =  y;
+            X = x;
+            Y = y;
 
         }
 
@@ -39,13 +44,13 @@ namespace Exerc2
         {
             if (X == Y || Y == X)
             {
-                 Console.WriteLine("Os vértices são iguais!");
-                
+                Console.WriteLine("Os vértices são iguais!");
+
             }
             else
             {
-                 Console.WriteLine("Os vértices não são iguais!");
-              
+                Console.WriteLine("Os vértices não são iguais!");
+
             }
         }
 
