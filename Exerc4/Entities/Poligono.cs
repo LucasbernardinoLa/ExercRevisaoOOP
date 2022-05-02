@@ -13,7 +13,7 @@ namespace Exerc4.Entities
         {
             if (v1 == null || v2 == null || v3 == null)
             {
-                throw new ArgumentException("Um polígono deve ter 3 ous mais vértices! ");
+                throw new ArgumentException("Um polígono deve ter 3 ou mais vértices! ");
             }
             else if (v1.X <= 0 || v2.X <= 0 || v3.X <= 0)
             {
