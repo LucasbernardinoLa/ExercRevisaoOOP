@@ -7,7 +7,7 @@ namespace Exerc4.Entities
         public Vertice V1 { get; private set; }
         public Vertice V2 { get; private set; }
         public Vertice V3 { get; private set; }
-        public List<Vertice> Vertices { get; set; } = new List<Vertice>();
+        public List<Vertice> Vertices { get; set; } = new List<Vertice> ();
 
         public Poligono(Vertice v1, Vertice v2, Vertice v3)
         {
@@ -24,9 +24,7 @@ namespace Exerc4.Entities
                 V1 = v1;
                 V2 = v2;
                 V3 = v3;
-                Vertices.Add(v1);
-                Vertices.Add(v2);
-                Vertices.Add(v3);
+                Vertices = new List<Vertice> { v1, v2, v3 };
             }
         }
         public  bool AddVertice(Vertice v)
@@ -42,15 +40,15 @@ namespace Exerc4.Entities
             }
         }
 
-        public void RemoveVertice(Vertice v)
+        public void RemoveVertice(int i)
         {
-            if( Vertices.Count < 3)
+            if( Vertices.Count <= 3)
             {
                 throw new Exception("Um poligono deve ter 3 ou mais vértices! ");
             }
             else
             {
-                Vertices.Remove(v);
+                Vertices.RemoveAt(i);
             }
         }
         public double Perimetro()
@@ -65,7 +63,12 @@ namespace Exerc4.Entities
         }
         public void NumeroVertices()
         {
-            Console.WriteLine(Vertices.Count());
+            Console.WriteLine($"número de vértices do polígono: { Vertices.Count()}");
+        }
+
+        public override string ToString()
+        {
+            return $"Valor do perímetro: {Perimetro()}";
         }
     }
 }

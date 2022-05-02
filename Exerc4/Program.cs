@@ -24,11 +24,37 @@ try
         p.AddVertice(v);
         Console.WriteLine();
     }
+    Console.Write("Deseja remover algum vértice? S/N ");
+    char c = char.Parse(Console.ReadLine());
+    if(c == 'S' || c == 's')
+    {
+        Console.WriteLine();
+        Console.Write("Digite o número de vértices que irão ser removidos: ");
+        n = int.Parse(Console.ReadLine());
+        
+        for(int i = 0; i< n; i++)
+        {
+            Console.WriteLine();
+            Console.WriteLine("Digite o índice do vértice que sera removido(lembrando que a contagem começa a partir de 0): ");
+            Console.WriteLine();
+            p.NumeroVertices();
+            Console.WriteLine();
+            int index = int.Parse(Console.ReadLine());
+            p.RemoveVertice(index);
+            Console.WriteLine();
 
-    Console.WriteLine(p.Perimetro());
+        }
+    }
+    Console.WriteLine();
+    Console.WriteLine(p);
     p.NumeroVertices();
+
 }
 catch(SystemException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+catch(Exception ex)
 {
     Console.WriteLine(ex.Message);
 }
