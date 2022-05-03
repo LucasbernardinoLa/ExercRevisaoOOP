@@ -64,7 +64,7 @@ public class Intervalo : IComparable
 
     public override string ToString()
     {
-        return $" Data de inicio: {DataInicial}, Data final:{DataFinal}" +
+        return $" Data de inicio: {DataInicial:dd/MM/yyyy} Data final:{DataFinal:dd/MM/yyyy}" +
             $"  duração do intervalo: {Duracao}";
     }
     public override int GetHashCode()

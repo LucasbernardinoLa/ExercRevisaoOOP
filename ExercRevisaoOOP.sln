@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exerc3", "Exerc3\Exerc3.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exerc4", "Exerc4\Exerc4.csproj", "{45ABF0C6-C1B0-4B06-8B6D-147225E3FD44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exerc5", "Exerc5\Exerc5.csproj", "{A3F6B964-9E7D-4359-A59B-0AA6A655B8B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exerc5", "Exerc5\Exerc5.csproj", "{A3F6B964-9E7D-4359-A59B-0AA6A655B8B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exerc6", "Exerc6\Exerc6.csproj", "{B281DFA4-EF30-4491-887B-DC320382B9B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exerc6", "Exerc6\Exerc6.csproj", "{B281DFA4-EF30-4491-887B-DC320382B9B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exerc7", "Exerc7\Exerc7.csproj", "{A9F85354-E355-4D49-A062-93FF758B2CA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{B281DFA4-EF30-4491-887B-DC320382B9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B281DFA4-EF30-4491-887B-DC320382B9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B281DFA4-EF30-4491-887B-DC320382B9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F85354-E355-4D49-A062-93FF758B2CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F85354-E355-4D49-A062-93FF758B2CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F85354-E355-4D49-A062-93FF758B2CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F85354-E355-4D49-A062-93FF758B2CA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
