@@ -6,7 +6,7 @@ Console.WriteLine("Digite os dados de cadastro do cliente: ");
 Client c = new Client();
 int i = 0;
 
-while (i <= 0)
+while (i == 0)
 {
     Console.WriteLine();
     Console.Write("Digite o nome do usuário: ");
@@ -18,7 +18,7 @@ while (i <= 0)
     }
     try
     {
-        while (i <= 0)
+        while (i == 0)
         {
             Console.Write("Cpf: ");
             string cpf = Console.ReadLine();
@@ -30,7 +30,7 @@ while (i <= 0)
 
             long num_cpf = long.Parse(cpf);
 
-            while (i <= 0)
+            while (i == 0)
             {
                 Console.Write("Data de nascimento (DD/MM/AAAA): ");
                 string data = Console.ReadLine();
@@ -41,7 +41,7 @@ while (i <= 0)
                     continue;
                 }
 
-                while (i <= 0)
+                while (i == 0)
                 {
                     Console.Write("Renda mensal: ");
                     string renda = Console.ReadLine();
@@ -49,7 +49,7 @@ while (i <= 0)
 
                     float f_renda = float.Parse(renda, CultureInfo.InvariantCulture);
 
-                    while (i <= 0)
+                    while (i == 0)
                     {
                         Console.Write("Estado civil (C, S, D ou V): ");
                         string estado = Console.ReadLine();
@@ -61,7 +61,7 @@ while (i <= 0)
 
                         char c_estado = char.Parse(estado);
 
-                        while (i <= 0)
+                        while (i == 0)
                         {
                             Console.Write("Número de dependentes: ");
                             string dependentes = Console.ReadLine();

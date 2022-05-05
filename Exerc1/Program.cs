@@ -1,10 +1,9 @@
 ﻿using Exerc1.Entities;
 
-Console.WriteLine("Digite o valor de linhas da pirâmide: ");
-    int n = int.Parse(Console.ReadLine());
-
 try
 {
+    Console.WriteLine("Digite o valor de linhas da pirâmide: ");
+    int n = int.Parse(Console.ReadLine());
     Piramide p = new Piramide(n);
     p.desenha();
 }

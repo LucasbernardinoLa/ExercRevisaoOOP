@@ -48,7 +48,6 @@ try
     Console.WriteLine();
     Console.WriteLine(p);
     p.NumeroVertices();
-
 }
 catch(SystemException ex)
 {

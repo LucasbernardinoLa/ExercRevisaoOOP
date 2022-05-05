@@ -1,12 +1,12 @@
 ﻿using Exerc2.Entities;
 
-Console.Write("Digite o valor de X: ");
-double x = int.Parse(Console.ReadLine());
-Console.Write("Digite o valor de Y: ");
-double y = int.Parse(Console.ReadLine());
-
 try
 {
+    Console.Write("Digite o valor de X: ");
+    double x = int.Parse(Console.ReadLine());
+    Console.Write("Digite o valor de Y: ");
+    double y = int.Parse(Console.ReadLine());
+
     Vertice v = new Vertice(x, y);
 
     Console.WriteLine();
@@ -24,8 +24,8 @@ try
 
     v.VerificaVertice();
 
-}
+} 
 catch (Exception e)
 {
-    Console.WriteLine(e.Message);
+    Console.WriteLine(e.Message); 
 }

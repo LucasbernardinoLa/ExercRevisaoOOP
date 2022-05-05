@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exerc5", "Exerc5\Exerc5.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exerc6", "Exerc6\Exerc6.csproj", "{B281DFA4-EF30-4491-887B-DC320382B9B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exerc7", "Exerc7\Exerc7.csproj", "{A9F85354-E355-4D49-A062-93FF758B2CA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exerc7", "Exerc7\Exerc7.csproj", "{A9F85354-E355-4D49-A062-93FF758B2CA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

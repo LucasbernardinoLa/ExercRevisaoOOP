@@ -63,7 +63,7 @@ namespace Exerc4.Entities
         }
         public void NumeroVertices()
         {
-            Console.WriteLine($"número de vértices do polígono: { Vertices.Count()}");
+            Console.WriteLine($"número de vértices do polígono: { Vertices.Count}");
         }
 
         public override string ToString()

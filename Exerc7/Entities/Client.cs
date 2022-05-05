@@ -107,7 +107,6 @@ namespace Exerc7.Entities
         {
             return $"Nome: {Nome} \n" +
                    $"Cpf: {Cpf} \n " +
-                   $"\n" +
                    $"Data de nascimento: {Data.ToString("dd/MM/yyyy")}\n " +
                    $"Renda: {Renda.ToString("F2", CultureInfo.InvariantCulture)}\n " +
                    $"Estado civil: {EstadoCivil.ToString().ToUpperInvariant()}\n " +

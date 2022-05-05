@@ -27,6 +27,7 @@ try
     Triangulo t2 = new Triangulo(new Vertice(v1), new Vertice(v2), new Vertice(v3), tipo2);
     t1.Equals(t2);
     Console.WriteLine(t1);
+    Console.WriteLine(t2);
 
 }
 catch (ArgumentException e)

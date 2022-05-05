@@ -21,6 +21,7 @@ try
 
     Console.WriteLine();
     Console.WriteLine(i1);
+    Console.WriteLine(i2);
 }
 catch (SystemException ex)
 {
