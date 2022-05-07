@@ -2,27 +2,36 @@
 {
     internal class Piramide
     {
-        public int N { get; set; }
+        private int n; 
+
+        public int N
+        {
+            get
+            {
+                return n;
+            }
+            set
+            {
+                if (value <= 0)
+                {
+                    throw new SystemException();
+                }
+                else
+                {
+                    n = value;
+                }
+            }
+        }
 
         public Piramide(int n)
         {
-            if (n <= 0)
-            {
-                throw new SystemException();
-            }
-            else
-            {
-                N = n;
-            }
 
+            this.N = n;
 
         }
 
         public void desenha()
         {
-
-            ;
-
             for (int i = 1; i <= N; i++)
             {
 

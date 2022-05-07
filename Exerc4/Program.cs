@@ -5,11 +5,15 @@ using Exerc4.Entities;
 try
 {
     Console.WriteLine("Digite os valores iniciais dos 3 primeiros vértices: ");
-    double v1 = double.Parse(Console.ReadLine());
-    double v2 = double.Parse(Console.ReadLine());
-    double v3 = double.Parse(Console.ReadLine());
+    double x1 = double.Parse(Console.ReadLine());
+    double x2 = double.Parse(Console.ReadLine());
+    double x3 = double.Parse(Console.ReadLine());
 
-    Poligono p = new Poligono(new Vertice(v1), new Vertice(v2), new Vertice(v3));
+    double y1 = double.Parse(Console.ReadLine());
+    double y2 = double.Parse(Console.ReadLine());
+    double y3 = double.Parse(Console.ReadLine());
+
+    Poligono p = new Poligono(new Vertice(x1), new Vertice(x2), new Vertice(x3));
 
     Console.Write("Digite o número de vértices adicionados ao polígono: ");
     int n = int.Parse(Console.ReadLine());

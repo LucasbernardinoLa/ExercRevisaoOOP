@@ -14,8 +14,7 @@ namespace Exerc3.Entities
         public double Area { get; set; }
 
 
-        public Triangulo(Vertice v1, Vertice v2, Vertice v3, Tipo tipo
-            )
+        public Triangulo(Vertice v1, Vertice v2, Vertice v3, Tipo tipo)
         {
             if(v1 == null || v2 == null || v3 == null)
             {

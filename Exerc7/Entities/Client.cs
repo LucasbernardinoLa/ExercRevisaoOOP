@@ -47,6 +47,18 @@ namespace Exerc7.Entities
             }
             return true;
         }
+        public bool VerificaRenda(float renda)
+        {
+            if (renda < 0.0)
+            {
+                Console.WriteLine();
+                Console.WriteLine("A renda de ser um número maior que zero");
+                Console.WriteLine();
+                return false;
+
+            }
+            return true;
+        }
         public bool VerificaIdade(DateTime data)
         {
             var idade = DateTime.Today.Year - data.Year;
@@ -108,7 +120,7 @@ namespace Exerc7.Entities
             return $"Nome: {Nome} \n" +
                    $"Cpf: {Cpf} \n " +
                    $"Data de nascimento: {Data.ToString("dd/MM/yyyy")}\n " +
-                   $"Renda: {Renda.ToString("F2", CultureInfo.InvariantCulture)}\n " +
+                   $"Renda: {Renda.ToString("F2")}\n " +
                    $"Estado civil: {EstadoCivil.ToString().ToUpperInvariant()}\n " +
                    $"Dependentes: {Dependente}\n ";
         }

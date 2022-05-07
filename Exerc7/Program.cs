@@ -45,9 +45,12 @@ while (i == 0)
                 {
                     Console.Write("Renda mensal: ");
                     string renda = Console.ReadLine();
-
-
-                    float f_renda = float.Parse(renda, CultureInfo.InvariantCulture);
+                    
+                    float f_renda = float.Parse(renda);
+                    if (c.VerificaRenda(f_renda) == false)
+                    {
+                        continue;
+                    }
 
                     while (i == 0)
                     {
